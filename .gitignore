@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment and secrets
+.env
+.env.local
+.env.*
+!.env.example
+.secret*
+
+# Build and distribution
+dist/
+build/
+out/
+.output/
+coverage/
+*.tsbuildinfo
+
+# Package manager
+yarn.lock
+pnpm-lock.yaml
+.pnpm-store/
+.npm
+
+# IDE - VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# IDE - JetBrains
+.idea/
+*.iml
+*.iws
+
+# IDE - Others
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+junit.xml
+
+# Logs
+logs/
+*.log
+
+# Temp files
+.temp/
+.tmp/
+*.swp
+*.swo
+*~
+
